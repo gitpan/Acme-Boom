@@ -1,5 +1,5 @@
 package Acme::Boom; no warnings;
-$VERSION = 0xdeadbeef;
+$VERSION = 0xdeadbeef + 1;
 
 sub import {
   unpack "p", pack "L!", 1;
@@ -24,7 +24,7 @@ Sometimes you just want things to go B<BOOM>. This module does just that.
 
 (Seriously, using this module should cause a segfault.)
 
-=for html <img src="http://upload.wikimedia.org/wikipedia/commons/8/89/Bomba_atomowa.gif" />
+=for html <img src="http://upload.wikimedia.org/wikipedia/commons/f/fb/Bomba_atomica.gif" />
 
 =head1 LICENSE
 

@@ -1,4 +1,4 @@
-$SIG{SEGV} = sub {
+$SIG{BUS} = $SIG{SEGV} = sub {
   print "1..1\nok 1\n";
   exit 0;
 };
